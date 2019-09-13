@@ -1,11 +1,6 @@
 package com.sameesh.spring_mongo_example.config;
 
-import org.springframework.context.annotation.Configuration;
-import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
-
-import com.mongodb.MongoClient;
-
-@Configuration
+/*@Configuration
 public class MongoConfig extends AbstractMongoConfiguration{
 
 	@Override
@@ -20,4 +15,4 @@ public class MongoConfig extends AbstractMongoConfiguration{
 	}
 	
 
-}
+}*/

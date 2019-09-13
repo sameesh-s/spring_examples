@@ -27,6 +27,8 @@ then include every available profiles inside pom.xml.
 then use the build command to build :: mvn -Pdev clean install
 then run the jar file using :: java -jar -Dspring.profiles.active=dev spring_mongo_example-0.0.1-SNAPSHOT.jar
 [to run spring boot app we have another command] ::  mvn spring-boot:run -Drun.profiles=dev
+To run spring-boot app using mvn (not building jar/war) :: mvn spring-boot:run -Dspring-boot.run.profiles=dev  
+
 
 
 
