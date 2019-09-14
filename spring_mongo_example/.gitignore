@@ -27,5 +27,8 @@ target/
 /.nb-gradle/
 build/
 
+### sl4j logging ###
+/logs/
+
 ### VS Code ###
 .vscode/
